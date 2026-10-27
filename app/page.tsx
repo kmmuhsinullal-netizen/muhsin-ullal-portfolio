@@ -11,7 +11,7 @@ const expertise = [
 ];
 
 const ventures = [
-  { number: '01', name: 'NexGuide', category: 'EDUCATION & CAREER GUIDANCE', icon: Compass, description: 'An education and career guidance initiative helping students explore academic pathways, develop skills, and make informed decisions about their futures.', tags: ['Career guidance', 'Education planning', 'Mentorship'], href: 'https://www.nexguide.online', link: 'Explore NexGuide', external: true },
+  { number: '01', name: 'NexGuide', category: 'EDUCATION & CAREER GUIDANCE', icon: Compass, description: 'An education and career guidance initiative helping students explore academic pathways, develop skills, and make informed decisions about their futures.', tags: ['Career guidance', 'Education planning', 'Mentorship'], href: 'https://nexguide.online', link: 'Explore NexGuide', external: true },
   { number: '02', name: 'Karnataka AI & Technology Literacy Mission', category: 'AI & TECHNOLOGY EDUCATION', icon: Sparkles, description: 'A learning initiative designed to make practical artificial intelligence and technology knowledge more accessible to learners across Karnataka.', tags: ['Practical AI', 'Digital literacy', 'Responsible use'], href: '#contact', link: 'Discuss the mission', external: false },
   { number: '03', name: 'SouKaio', category: 'INTERNATIONAL TRADE', icon: Globe2, description: 'An emerging export-import business concept focused on connecting products, markets, and commercial opportunities across borders.', tags: ['Global trade', 'Brand development', 'Entrepreneurship'], href: '#contact', link: 'Explore collaboration', external: false },
 ];
