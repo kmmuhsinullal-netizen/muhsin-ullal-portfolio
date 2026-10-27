@@ -27,13 +27,6 @@ export default function SiteHeader() {
         ))}
       </nav>
 
-      <a className="nexguide-link" href="https://nexguide.online"
-        target="_blank" rel="noreferrer">
-        <span className="nexguide-mark">N</span>
-        <span>NexGuide</span>
-        <ArrowUpRight size={14} />
-      </a>
-
       <a className="nav-cta" href="mailto:kmmuhsinullal@gmail.com">
         <Mail size={14} /> Email me
       </a>
@@ -53,8 +46,6 @@ export default function SiteHeader() {
             <a key={link.href} href={link.href}
               onClick={() => setOpen(false)}>{link.label}</a>
           ))}
-          <a href="https://nexguide.online" target="_blank"
-            rel="noreferrer">NexGuide ↗</a>
           <a href="mailto:kmmuhsinullal@gmail.com">
             kmmuhsinullal@gmail.com
           </a>
