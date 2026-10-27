@@ -78,3 +78,6 @@
 /* Final typography refinement */
 .wordmark-name { font-size: 14px; letter-spacing: 0.15em; }
 @media (max-width: 760px) { .wordmark-name { font-size: 12px; letter-spacing: 0.09em; } }
+
+/* NexGuide brand logo in the Ventures card */
+.card-logo{width:150px;max-width:62%;height:44px;display:flex;align-items:center;justify-content:flex-end;overflow:hidden}.card-logo img{display:block;width:100%;height:auto;object-fit:contain}
