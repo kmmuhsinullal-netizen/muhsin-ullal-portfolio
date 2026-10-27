@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { ArrowDown, ArrowRight, ArrowUpRight, Brain, BriefcaseBusiness, GraduationCap, Lightbulb, Mail, MoveUpRight, Sparkles, Workflow, Globe2, BookOpen, LaptopMinimal, Quote, Compass, BrainCircuit, BookOpenCheck } from 'lucide-react';
+import { ArrowDown, ArrowRight, ArrowUpRight, Brain, BriefcaseBusiness, GraduationCap, Lightbulb, Mail, MoveUpRight, Sparkles, Workflow, Globe2, BookOpen, LaptopMinimal, Quote, Compass, BrainCircuit, BookOpenCheck, Instagram, Facebook } from 'lucide-react';
 import SiteHeader from '@/components/site-header';
 import ContactForm from '@/components/contact-form';
 
@@ -66,6 +66,6 @@ export default function HomePage() {
 
     <section className="section contact-section" id="contact"><div className="page-wrap contact-grid"><div className="contact-copy"><p className="section-kicker">START A CONVERSATION</p><h2>Have an idea?<br /><span>Let’s build</span><br />something meaningful.</h2><p>Interested in collaborating, exchanging ideas, or exploring a meaningful opportunity? I’d be glad to connect.</p><div className="contact-detail"><span className="contact-detail-icon"><Mail size={18} /></span><div><small>OPEN TO CONVERSATIONS ABOUT</small><span>Education · AI · Entrepreneurship</span></div></div></div><div className="contact-form-wrap"><ContactForm /></div></div></section>
 
-    <footer className="site-footer"><div className="page-wrap footer-main"><a className="footer-brand" href="#home">MUHSIN ULLAL<span>.</span></a><p>Building ideas. Empowering people.<br />Shaping the future.</p><a className="back-top" href="#home">BACK TO TOP <MoveUpRight size={14} /></a></div><div className="page-wrap footer-bottom"><span>© {new Date().getFullYear()} Muhsin Ullal. All rights reserved.</span><span>Made with intention, not noise.</span><a href="#home">Personal portfolio <ArrowUpRight size={13} /></a></div></footer>
+    <footer className="site-footer"><div className="page-wrap footer-main"><a className="footer-brand" href="#home">MUHSIN ULLAL<span>.</span></a><p>Building ideas. Empowering people.<br />Shaping the future.</p><div className="footer-socials" aria-label="Social media"><a href="https://www.instagram.com/muhsin__ullal/" target="_blank" rel="noreferrer" aria-label="Instagram"><Instagram size={17} strokeWidth={1.7} /><span>Instagram</span></a><a href="https://www.facebook.com/muhsin.m" target="_blank" rel="noreferrer" aria-label="Facebook"><Facebook size={17} strokeWidth={1.7} /><span>Facebook</span></a></div><a className="back-top" href="#home">BACK TO TOP <MoveUpRight size={14} /></a></div><div className="page-wrap footer-bottom"><span>© {new Date().getFullYear()} Muhsin Ullal. All rights reserved.</span><span>Made with intention, not noise.</span><a href="#home">Personal portfolio <ArrowUpRight size={13} /></a></div></footer>
   </main>;
 }
