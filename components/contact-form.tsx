@@ -18,7 +18,7 @@ export default function ContactForm() {
     );
 
     window.location.href =
-      `mailto:muhsinullal@gmail.com?subject=${subject}&body=${body}`;
+      `mailto:kmmuhsinullal@gmail.com?subject=${subject}&body=${body}`;
   }
 
   return (
@@ -50,9 +50,9 @@ export default function ContactForm() {
       />
 
       <button className="button button-primary" type="submit">
-        Prepare email <ArrowUpRight size={16} />
+        Email me <ArrowUpRight size={16} />
       </button>
-      <p>This opens your email app to send the message.</p>
+      <p>This opens your email app to send the message to <a href="mailto:kmmuhsinullal@gmail.com">kmmuhsinullal@gmail.com</a>.</p>
     </form>
   );
 }
