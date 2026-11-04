@@ -2,12 +2,14 @@
 'use client';
 
 import { useState } from 'react';
-import { ArrowUpRight, Menu, X, Mail } from 'lucide-react';
+import { Menu, X, Mail } from 'lucide-react';
 
 const links = [
+  { label: 'Home', href: '#home' },
   { label: 'About', href: '#about' },
-  { label: 'Ventures', href: '#ventures' },
-  { label: 'Projects', href: '#projects' },
+  { label: 'Initiatives', href: '#ventures' },
+  { label: 'Skills', href: '#interests' },
+  { label: 'Contact', href: '#contact' },
 ];
 
 export default function SiteHeader() {
