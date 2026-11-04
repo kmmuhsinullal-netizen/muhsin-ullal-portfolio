@@ -241,3 +241,42 @@ body {
     letter-spacing: .09em;
   }
 }
+
+
+/* Concise About section expertise tags */
+.about-focus {
+  margin: 26px 0 24px;
+}
+.focus-label {
+  margin: 0 0 12px;
+  color: #a9aab3;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: .16em;
+}
+.focus-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.focus-tags span {
+  padding: 7px 11px;
+  border: 1px solid rgba(181,168,255,.2);
+  border-radius: 999px;
+  background: rgba(181,168,255,.045);
+  color: #d0c9ed;
+  font-size: 10px;
+  line-height: 1.4;
+}
+@media (max-width: 760px) {
+  .about-focus {
+    margin: 22px 0;
+  }
+  .focus-tags {
+    gap: 7px;
+  }
+  .focus-tags span {
+    font-size: 9px;
+    padding: 7px 9px;
+  }
+}
