@@ -43,7 +43,6 @@ export default function HomePage() {
       <SiteHeader />
       <div className="hero-content page-wrap">
         <div className="hero-copy reveal">
-          <p className="eyebrow"><span className="status-dot" /> DIGITAL GROWTH STRATEGIST <i /> PSYCHOLOGIST <i /> ENTREPRENEUR <i /> EDUCATOR</p>
           <h1>Building ideas.<br />Empowering people.<br /><span>Shaping the future.</span></h1>
           <p className="hero-description">I’m Muhsin Ullal — a Digital Growth Strategist, Psychologist, Entrepreneur, and Educator. I bring together digital technology, business strategy, education, and human development to turn ideas into practical opportunities that help people move forward.</p>
           <div className="hero-actions"><a className="button button-primary" href="#about">Explore my journey <ArrowUpRight size={17} /></a><a className="button button-quiet" href="#contact">Let’s connect <ArrowRight size={16} /></a></div>
