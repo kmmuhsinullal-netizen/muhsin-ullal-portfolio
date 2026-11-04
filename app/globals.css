@@ -280,3 +280,11 @@ body {
     padding: 7px 9px;
   }
 }
+
+
+/* Compact direct-email contact card */
+.contact-grid{align-items:center}
+.contact-form-wrap{width:min(100%,300px);justify-self:center;align-self:center;padding:24px;background:#17191e;border:1px solid rgba(255,255,255,.08);border-radius:8px}
+.contact-direct{min-height:0;padding:0;align-items:center;gap:0}
+.contact-direct-button{width:100%;min-width:0;justify-content:center;margin:0}
+@media(max-width:760px){.contact-form-wrap{width:min(100%,320px);justify-self:start;padding:20px}.contact-grid{gap:32px}}
