@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from 'next';
 import './globals.css';
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
+const siteUrl = 'https://muhsinullal.online';
 
 export const metadata: Metadata = {
   title: 'Muhsin Ullal | Entrepreneur, Educator & Technology Advocate',
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     images: [{ url: '/images/muhsin-ullal-hero.jpg', width: 1536, height: 1536, alt: 'Muhsin Ullal seated in an executive office' }],
   },
   twitter: { card: 'summary_large_image', title: 'Muhsin Ullal | Personal Portfolio', description: 'Building ideas. Empowering people. Shaping the future.', images: ['/images/muhsin-ullal-hero.jpg'] },
-  icons: { icon: '/favicon.svg' },
+  icons: {\n    icon: [{ url: '/favicon.svg', type: 'image/svg+xml' }],\n    shortcut: ['/favicon.svg'],\n    apple: [{ url: '/favicon.svg' }],\n  },
 };
 
 export const viewport: Viewport = { width: 'device-width', initialScale: 1, themeColor: '#090a0c' };
