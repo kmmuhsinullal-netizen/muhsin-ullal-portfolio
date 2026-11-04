@@ -41,10 +41,10 @@ export default function HomePage() {
       <SiteHeader />
       <div className="hero-content page-wrap">
         <div className="hero-copy reveal">
-          <p className="eyebrow"><span className="status-dot" /> ENTREPRENEURSHIP <i /> EDUCATION <i /> TECHNOLOGY</p>
+          <p className="eyebrow"><span className="status-dot" /> DIGITAL GROWTH <i /> PSYCHOLOGY <i /> EDUCATION</p>
           <h1>Building ideas.<br />Empowering people.<br /><span>Shaping the future.</span></h1>
-          <p className="hero-description">I’m Muhsin Ullal — an entrepreneur, educator, and technology advocate passionate about creating meaningful opportunities through education, innovation, and human development.</p>
-          <div className="hero-actions"><a className="button button-primary" href="#about">Explore my journey <ArrowUpRight size={17} /></a><a className="button button-quiet" href="#contact">Let’s connect <ArrowRight size={16} /></a></div>
+          <p className="hero-description">I’m Muhsin Ullal — a psychology graduate, career guidance professional, and digital growth strategist. I bring together education, technology, and entrepreneurship to turn ideas into practical opportunities that help people move forward.</p>
+          <div className="hero-actions"><a className="button button-primary" href="#about">Explore my journey <ArrowUpRight size={17} /></a><a className="button button-quiet" href="#contact">Let’s connect <ArrowRight size={16} /></a></div><div className="hero-credentials"><span>BA Psychology</span><i /><span>Career Guidance</span><i /><span>Digital Growth</span></div>
         </div>
       </div>
       <div className="hero-bottom page-wrap"><a className="scroll-cue" href="#about"><span className="scroll-icon"><ArrowDown size={14} /></span><span>SCROLL TO EXPLORE</span></a><span className="hero-note">PERSONAL PORTFOLIO <span>—</span> VENTURES & IDEAS</span></div>
