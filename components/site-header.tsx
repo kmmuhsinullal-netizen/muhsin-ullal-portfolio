@@ -47,9 +47,6 @@ export default function SiteHeader() {
             <a key={link.href} href={link.href}
               onClick={() => setOpen(false)}>{link.label}</a>
           ))}
-          <a href="mailto:kmmuhsinullal@gmail.com">
-            kmmuhsinullal@gmail.com
-          </a>
         </nav>
       )}
     </header>
