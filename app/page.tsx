@@ -4,10 +4,10 @@ import SiteHeader from '@/components/site-header';
 import ContactForm from '@/components/contact-form';
 
 const expertise = [
-  { icon: BriefcaseBusiness, title: 'Entrepreneurship', sub: '& ventures' },
-  { icon: GraduationCap, title: 'Education', sub: '& guidance' },
-  { icon: Sparkles, title: 'AI & technology', sub: 'for everyone' },
-  { icon: Brain, title: 'Human', sub: 'development' },
+  { icon: Sparkles, title: 'Digital Growth Strategist' },
+  { icon: Brain, title: 'Psychologist' },
+  { icon: BriefcaseBusiness, title: 'Entrepreneur' },
+  { icon: GraduationCap, title: 'Educator' },
 ];
 
 const ventures = [
@@ -49,8 +49,8 @@ export default function HomePage() {
           <div className="hero-actions"><a className="button button-primary" href="#about">Explore my journey <ArrowUpRight size={17} /></a><a className="button button-quiet" href="#contact">Let’s connect <ArrowRight size={16} /></a></div><div className="hero-credentials"><span>BA Psychology</span><i /><span>Career Guidance</span><i /><span>Digital Growth</span></div>
         </div>
       </div>
-      <div className="hero-bottom page-wrap"><a className="scroll-cue" href="#about"><span className="scroll-icon"><ArrowDown size={14} /></span><span>SCROLL TO EXPLORE</span></a><span className="hero-note">PERSONAL PORTFOLIO <span>—</span> VENTURES & IDEAS</span></div>
-      <div className="expertise-strip"><div className="page-wrap expertise-grid">{expertise.map(({ icon: Icon, title, sub }) => <div className="expertise-item" key={title}><Icon size={19} strokeWidth={1.5} /><div><span>{title}</span><small>{sub}</small></div></div>)}</div></div>
+      
+      <div className="expertise-strip"><div className="page-wrap expertise-grid">{expertise.map(({ icon: Icon, title }) => <div className="expertise-item" key={title}><Icon size={19} strokeWidth={1.5} /><div><span>{title}</span></div></div>)}</div></div>
     </section>
 
     <section className="section about-section" id="about"><div className="page-wrap about-grid">
