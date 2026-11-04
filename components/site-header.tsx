@@ -8,7 +8,6 @@ const links = [
   { label: 'About', href: '#about' },
   { label: 'Ventures', href: '#ventures' },
   { label: 'Projects', href: '#projects' },
-  { label: 'Insights', href: '#insights' },
 ];
 
 export default function SiteHeader() {
